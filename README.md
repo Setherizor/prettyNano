@@ -6,7 +6,7 @@ we gonna install newest nano, and make it all pretty with fancy colors.
 ## Easy Street Steps
 Just Run this:
 ```sh
-chmod +x ./init.sh; ./init.sh
+ curl https://raw.githubusercontent.com/Setherizor/prettyNano/master/init.sh | sh
 ```
 All this does is automate the steps outlined below
 
@@ -25,4 +25,10 @@ set autoindent
 set mouse
 set smooth
 set tabstospaces
+```
+
+## Final option
+download repo and run this
+```sh
+chmod +x ./init.sh; ./init.sh
 ```

@@ -19,6 +19,7 @@ fi
 
 # Support Mouse and misc QOL improvements
 declare -a arr=(
+  " "
  "set autoindent"
  "set mouse"
  "set smooth"
@@ -26,7 +27,7 @@ declare -a arr=(
   )
 for i in "${arr[@]}"
   do
-    grep -q -F '$i' foo.bar || echo '$i' >> ~/.nanorc
+    grep -q -F "$i" foo.bar || echo "$i" >> ~/.nanorc
   done
 
 # Colors
