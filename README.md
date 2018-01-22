@@ -4,12 +4,12 @@ oke oke oke, this is where we gonna  get real,
 we gonna install newest nano, and make it all pretty with fancy colors.
 
 ## Easy Street Steps
-Just Run this:
+Download repo and just Run this:
 ```sh
- curl https://raw.githubusercontent.com/Setherizor/prettyNano/master/init.sh | sh
+chmod +x ./init.sh; ./init.sh
 ```
 All this does is automate the steps outlined below
-
+Ps. You can delete repo afterwards
 ## Computer Freak Steps
 1.) copy the nano file here into the `~/bin/nano` folder (in your home directory)
 
@@ -25,10 +25,4 @@ set autoindent
 set mouse
 set smooth
 set tabstospaces
-```
-
-## Final option
-download repo and run this
-```sh
-chmod +x ./init.sh; ./init.sh
 ```
