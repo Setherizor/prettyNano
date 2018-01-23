@@ -4,9 +4,9 @@ oke oke oke, this is where we gonna  get real,
 we gonna install newest nano, and make it all pretty with fancy colors.
 
 ## Easy Street Steps
-Download repo and just Run this:
+Just Run this command for fully automated install:
 ```sh
-chmod +x ./init.sh; ./init.sh
+curl https://raw.githubusercontent.com/Setherizor/prettyNano/master/setup.sh | sh
 ```
 All this does is automate the steps outlined below
 Ps. You can delete repo afterwards
