@@ -9,7 +9,8 @@ Just Run this command for fully automated install:
 curl https://raw.githubusercontent.com/Setherizor/prettyNano/master/setup.sh | sh
 ```
 All this does is automate the steps outlined below
-Ps. You can delete repo afterwards
+
+**Do this please**
 ## Computer Freak Steps
 1.) copy the nano file here into the `~/bin/nano` folder (in your home directory)
 
